@@ -1,0 +1,408 @@
+$font1: 'Karla', sans-serif;
+$font2: 'Alegreya Sans SC', sans-serif;
+$fcolor1: white;
+$bgcolor: #403F3F;
+$espaciado: 1.3px;
+
+* {
+    box-sizing: border-box;
+    }
+    
+    
+    #main-header {
+        background-color: #000;
+        text-align: center;
+        color: $fcolor1;
+        height: 700px;
+    }
+    
+    #main-box{
+        background-color: $bgcolor;
+        height: 700px;
+    }
+    
+    #main-p {
+        font-family: $font1;
+        font-size: 30px;
+        color: $fcolor1;
+        text-align: center;
+        letter-spacing: $espaciado;
+        line-height: 1;
+    }
+    
+    #email-me {
+        font-family: $font1;
+        font-size: 30px;
+        color: $fcolor1;
+        text-align: left;
+        letter-spacing: $espaciado;
+        line-height: 1px;
+        padding-bottom: 30px;
+    }
+    
+    .about-me-p {
+        font-family: $font1;
+        height: 10px;
+        font-size: 25px;
+        color: $fcolor1;
+        text-align: center-justify;
+    }
+    
+    .middle-p {
+        font-family: $font1;
+        height: 10px;
+        font-size: 18px;
+        color: $fcolor1;
+        text-align: center-justify;
+    }
+    
+    .contact-me-p {
+        font-family: $font1;
+        font-size: 30px;
+        color: $fcolor1;
+        text-align: center;
+        letter-spacing: $espaciado;
+        line-height: 1;
+        height: 395px;
+    }
+    
+    .main-img {
+        margin-top: 40px;
+        border: solid 4px black;
+        border-radius: 50%;
+        width: 300px;
+        height: 300px;
+    
+    }
+     /* Pagina principal */
+    .main-title {
+        font-family: $font2;
+        text-align: center;
+        color: $fcolor1;
+        font-size: 40px;
+        text-transform: uppercase;
+        border-top: 5px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding-top: 10px;
+        padding-bottom: 0;
+    }
+    
+    .second-title {
+        font-family: $font2;
+        text-align: center;
+        color: $fcolor1;
+        font-size: 17px;
+        text-transform: uppercase;
+        padding-bottom: 140px;
+        font-weight: lighter;
+        letter-spacing: 1.5px;
+    
+    }
+    
+    
+    
+    /* Pagina about */
+    
+    .about-main-title {
+        font-family: $font2;
+        text-align: center;
+        color: $fcolor1;
+        text-transform: uppercase;
+        font-size: 45px;
+        margin-top: 5px;
+        padding-top: 10px;
+        letter-spacing: $espaciado;
+    }
+    
+    .about-second-title {
+        font-family: $font2;	
+        text-align: center;
+        color: $fcolor1;
+        font-size: 40px;
+        text-transform: uppercase;
+        padding-top: 30px;
+        padding-bottom: 10px;
+        font-weight: bold;
+        letter-spacing: 2px;
+    }
+    
+    .third-tile {
+        font-family: $font2;
+        text-align: center;
+        color: $fcolor1;
+        font-size: 17px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+    .container {
+        max-width: 1000px;
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+    }
+    
+    .column {
+        font-family: $font2;
+        background-color: $bgcolor;
+        margin: 0 15px 25px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12),
+        0 1px 2px rgba(0, 0, 0, 0.24);
+        border-radius: 10px;
+    
+        text-align: center;
+        font-size: 30px;
+        color: $fcolor1;
+        padding: 0;
+    
+        flex-basis: 33%;
+    }
+    
+    .card {
+        padding: 15px 25px;
+    }
+    
+    .little-me-img {
+        margin-top: 50px;
+        width: 300px;
+        height: 300px;
+        max-width: 100%;
+        border-radius: 5px;
+    }
+    
+    /* Pagina de contacto. */
+    .contact-main-title {
+        font-family: $font2;
+        text-align: center;
+        color: $fcolor1;
+        font-size: 40px;
+        text-transform: uppercase;
+        background-color: #000;
+        border-top: 5px solid #403F3F;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding-top: 20px;
+        padding-bottom: 15px;
+    }
+    
+    .contact-me {
+        text-decoration: underline;
+    }
+    
+    
+    /* Pagina de Inspira. */
+    
+    .h1insp {
+        font-family: $font2;	
+        text-align: center;
+        color: $fcolor1;
+        font-size: 40px;
+        text-transform: uppercase;
+        padding-top: 30px;
+        padding-bottom: 10px;
+        font-weight: bold;
+        letter-spacing: 2px;
+    }
+    
+    .foto {
+        padding:0 !important;
+        margin-top:0;
+        display: grid;
+        color: $fcolor1;
+        border: 1px solid white;
+        transition: transform .2s ; 
+        
+    }
+    
+    .foto img {
+    width: 100%
+    
+    }
+    
+    .foto:hover {
+        position: relative;
+        z-index: 10;
+        -ms-transform: scale(1.1); /* IE 9 */
+      -webkit-transform: scale(1.1); /* Safari 3-8 */
+        transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    
+     }
+    
+     .row {
+        margin: 0;
+        padding: 0;
+    
+    }
+    
+    
+    /* Fin de pagina. */
+    
+     ul li {
+        font-family: $font1;
+        display: inline-block;
+        font-size: 30px;
+        padding: 5px;
+    }
+    img {
+        max-width: 100%;
+    }
+    
+    body {
+        background-color: black;
+        margin: 0px;
+        text-align: center;
+    }
+    
+    
+    nav li {
+        display: inline-block;
+        font-size: 15px;
+        padding: 0 3.7142em;
+        border-right: solid 0.0714em white;
+    }
+    
+    
+    
+    main {
+        background-color: $bgcolor;
+        padding: 5%;
+        border-bottom: solid 5px #383838;
+    }
+    
+    
+    h1 {
+        font-size: 40px;
+        color: $fcolor1;
+        text-align: center;
+    }
+    
+     
+    /* PSEUDO-CLASSES ---------------- */ 
+    a:link {
+        color: white;
+        text-decoration: none;
+    }
+    
+    a:visited {
+        color: white;
+    }
+    
+    a:hover {
+        color: /*#7A7777*/#EEEEEE;
+    }
+    
+    :focus {
+        color: white;
+        background-color: $bgcolor;
+    }
+    
+    a.contact-me {
+        text-decoration: underline;
+    }
+    
+    
+    /* --------------------------------- */
+    
+    
+    
+    #main-footer{
+        text-align: left;
+    }
+    
+    .footer-p {
+        margin: 0px;
+        padding: 10px;
+        background-color: $bgcolor;
+        color:$fcolor1; 
+    }
+    
+    .arrow {
+        width: 25px;
+        margin-bottom: 25px;
+    }
+    
+    #words {
+        color:$fcolor1;
+        text-transform: uppercase;
+    }
+    
+    
+    
+    
+    
+    @media (max-width: 767px)  {
+        
+        .h1insp {
+            margin-top: 15px;
+            font-size: 20px;
+        }
+    
+        #main-header {
+            height: 820px;
+        }
+    
+        .main-title {
+            font-size: 20px;
+        }
+        
+        .about-main-title {
+            font-size: 20px;
+        }
+
+        .about-second-title {
+            font-size: 15px;
+        }
+
+        .arrow {
+            width: 40px;
+            margin-top: 30px;
+        }
+    
+        .main-img {
+            width: 250px;
+            height: 250px;
+        }
+    
+        .contact-main-title {
+            font-size: 25px;
+        }
+    
+        .contact-me-p {
+            font-size: 15px;
+        }
+
+        .column {
+            width: 100%;
+        }
+    }
+    
+    
+    @media (max-width: 480px) {
+    
+        .h1insp {
+            font-size: 15px;
+            border-bottom: 1px solid white;
+        }
+    
+    
+        .contact-main-title {
+            font-size: 20px;
+        }
+
+        .about-main-title {
+            font-size: 15px;
+        }
+
+        .about-second-title {
+            font-size: 13px;
+        }
+    
+        .column {
+            width: 100%;
+        }
+    }
+    
+    
+    
+    
+    
